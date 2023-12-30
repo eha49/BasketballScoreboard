@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Basketball Scoreboard</title>
+</head>
+<body>
+    <div class="container-main">
+        <div class="container-board">
+            <div class="section-home">
+                <h3 id="home">HOME</h3>
+                <div class="display-bg">
+                    <h4 id="home-score-board">0</h4>    
+                </div>
+                <button class="btn" id="home-add-one">+1</button>
+                <button class="btn" id="home-add-two">+2</button>
+                <button class="btn" id="home-add-three">+3</button>
+            </div>
+            <div class="section-away">
+                <h3 id="away">AWAY</h3>
+                <div class="display-bg">
+                    <h4 id="away-score-board">0</h4>
+                </div>
+                <button class="btn" id="away-add-one" onclick="">+1</button>
+                <button class="btn" id="away-add-two">+2</button>
+                <button class="btn" id="away-add-three">+3</button>
+            </div>
+        </div>
+        <button class="btn btn-reset" id="reset-game">New Game</button>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
